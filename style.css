@@ -27,9 +27,9 @@ body {
     color: white;
 }
 
-.container {
+.login-container {
     width: 80%;
-    max-width: 500%;
+    max-width: 500px;
     min-height: 500px;
     border: 2 px solid #ec11cf;
     padding: 45px;
@@ -64,14 +64,14 @@ body {
 }
 
 .form-group input {
-    width: 150px;
+    width: 100px;
     text-align: center;
     padding: 19px;
     border: 1px solid #555;
     border-radius: 5px;
     background: #e8e2eb;
-    color: white;
-    outline: black;
+    color: #333;
+    outline: none;
 }
 
 .form-group input:focus {
