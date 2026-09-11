@@ -35,25 +35,33 @@ body {
     padding: 45px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
 }
 .login-form {
+    text-align: center;
     width: 320px;
 }
 
 .login-form h1 {
+    text-align: center;
     font-size: 36px;
     margin-bottom: 8px;
     color: #e869d3;
 }
 
 .login-form > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center
     color: #5c0658bd;
     margin-bottom: 30px;
 }
 
 .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 30px; 
 }
 
@@ -64,6 +72,7 @@ body {
 }
 
 .form-group input {
+    max-width: 280px;
     width: 100px;
     text-align: center;
     padding: 19px;
@@ -79,6 +88,7 @@ body {
 }
 
 .login-btn {
+    max-width: 280;
     width: 100%;
     padding: 14px;
     border: none;
